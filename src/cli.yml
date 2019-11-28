@@ -1,0 +1,36 @@
+name: mils
+version: "1.0"
+author: Eric Richter <richteer@lastprime.net>
+about: Garbage tier mediainfo data tabulator
+args:
+    - threads:
+        short: t
+        long: threads
+        value_name: THREADS
+        help: Number of threads to use to collect mediainfo
+        takes_value: true
+    - DIR:
+        help: Directory to list mediainfo from. Root directory if recursive
+        required: false
+        multiple: true
+        index: 1
+    - recursive:
+        short: r
+        long: recursive
+        help: Recurse into subdirectories (Default max depth of 10)
+    - depth:
+        short: d
+        long: depth
+        value_name: DEPTH
+        help: Max depth of recursion. Implies -r
+        takes_value: true
+    - video_tracks:
+        short: v
+        long: num-video
+        help: Max number of video tracks to display (Default 1)
+        takes_value: true
+    - audio_tracks:
+        short: a
+        long: num-audio
+        help: Max number of audio tracks to display (Default 1)
+        takes_value: true

@@ -20,7 +20,16 @@ OPTIONS:
 
 ARGS:
     <DIR>...    Directory to list mediainfo from. Root directory if recursive
+```
 
+# Example Output
+```
+File with a reall…essively long name.mp4  |  h264   2.846 mb/s  720p   |  mp4a-40-2         317.3 kb/s  VBR   5.1   
+Some Other File.mkv                       |  h264   9.857 mb/s  1080p  |  TrueHD + Atmos    8.910 mb/s  VBR   7.1   
+Another Example File.mkv                  |  HEVC   9.917 mb/s  1080   |  TrueHD + Atmos    4.929 mb/s  VBR   7.1   
+My Hot Mixtape.mkv                        |  h264   7.392 mb/s  808p   |  Dolby Digital     448.0 kb/s  CBR   5.1   
+Embarassing Home Video.mkv                |  h264   4.377 mb/s  1040p  |  Dolby Digital     640.0 kb/s  CBR   5.1   
+Cat.mp4                                   |  h264   986.0 kb/s  720p   |  mp4a-40-2         93.80 kb/s  VBR   Stereo
 ```
 
 # Design

@@ -1,5 +1,5 @@
 name: mils
-version: "1.0"
+version: "0.1.0"
 author: Eric Richter <richteer@lastprime.net>
 about: Garbage tier mediainfo data tabulator
 args:
